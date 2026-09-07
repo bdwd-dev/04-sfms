@@ -1,0 +1,95 @@
+{
+  "federations": [
+    {
+      "id": 1,
+      "name": "FECOFOOT",
+      "sport": "football",
+      "president": "M. Ngatsé",
+      "created_at": "2026-09-01"
+    },
+    {
+      "id": 2,
+      "name": "FECONDE",
+      "sport": "handball",
+      "president": "M. Boukaka",
+      "created_at": "2026-09-02"
+    }
+  ],
+  "clubs": [
+    {
+      "id": 1,
+      "name": "AC Léopards",
+      "federation_id": 1,
+      "city": "Dolisie",
+      "players": 25
+    },
+    {
+      "id": 2,
+      "name": "CARA Brazzaville",
+      "federation_id": 1,
+      "city": "Brazzaville",
+      "players": 28
+    },
+    {
+      "id": 3,
+      "name": "Inter Club",
+      "federation_id": 1,
+      "city": "Brazzaville",
+      "players": 22
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "name": "Joueur 1",
+      "club_id": 1,
+      "position": "attaquant",
+      "age": 24,
+      "license_active": true
+    },
+    {
+      "id": 2,
+      "name": "Joueur 2",
+      "club_id": 1,
+      "position": "milieu",
+      "age": 26,
+      "license_active": true
+    },
+    {
+      "id": 3,
+      "name": "Joueur 3",
+      "club_id": 2,
+      "position": "défenseur",
+      "age": 28,
+      "license_active": false
+    }
+  ],
+  "competitions": [
+    {
+      "id": 1,
+      "name": "Championnat National 2026",
+      "federation_id": 1,
+      "start_date": "2026-09-01",
+      "end_date": "2027-06-30",
+      "status": "ongoing"
+    },
+    {
+      "id": 2,
+      "name": "Coupe du Congo",
+      "federation_id": 1,
+      "start_date": "2026-10-01",
+      "end_date": "2026-12-31",
+      "status": "upcoming"
+    }
+  ],
+  "transfers": [
+    {
+      "id": 1,
+      "player_id": 1,
+      "from_club": 1,
+      "to_club": 2,
+      "status": "completed",
+      "fee": 5000000
+    }
+  ]
+}
