@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: 04-sfms-web
+    env: static
+    buildCommand: echo "No build needed"
+    staticPublishPath: ./
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
